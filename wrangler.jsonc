@@ -1,0 +1,15 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "growbond",
+  "main": ".open-next/worker.js",
+  "upload_source_maps": true,
+  "compatibility_date": "2026-10-25",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  // growbond.in Cloudflare-e Active thakle deploy-er shomoy DNS record nijei toiri hoy
+  "routes": [{ "pattern": "growbond.in", "custom_domain": true }],
+  "observability": { "enabled": true }
+}

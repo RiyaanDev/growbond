@@ -1,0 +1,8 @@
+# Local `npm run preview` (Workers runtime) er jonno. Copy kore `.dev.vars` naam din.
+# Ei file-e real secret likhle kokhono commit korben na (.dev.vars gitignored).
+NEXTJS_ENV=development
+SUPABASE_SERVICE_ROLE_KEY=
+TURNSTILE_SECRET_KEY=
+RESEND_API_KEY=
+ADMIN_NOTIFY_EMAIL=
+LEAD_FROM_EMAIL=Vynora Alerts <alerts@growbond.in>
